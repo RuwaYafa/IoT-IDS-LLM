@@ -14,6 +14,55 @@ COMP9340 – Computer Security Course - 2025
   * [Checkpoints](https://www.dropbox.com/scl/fo/yg306y5df9y5eyjp9mz72/AKbDfF1MVBljfVSORMXKsC4?rlkey=wgv7mnhscnbvij32v12qd8lgo&dl=0) for trained LLM models.
 ---
 ## ▶️ Reproducability
+---
+### Project structure - LLM Part
+<pre><code>
+.
+├── .venv/
+├── input_folder/
+├── eval/
+│   ├── data-00000-of-00001.arrow
+│   ├── dataset_info.json
+│   └── state.json
+├── train/
+│   └── dataset_dict.json
+├── merge_lora/ #SFT model
+├── model/ #checkpoints 
+├── output_folder/
+├── src/
+│   ├── blm/
+│   │   ├── cli/
+│   │   │   ├── inference.py
+│   │   │   ├── merge_lora.py
+│   │   │   ├── process.py
+│   │   │   └── train.py
+│   │   ├── config/
+│   │   │   ├── deepspeed_zero2.json
+│   │   │   └── deepspeed_zero3.json
+│   │   ├── prompts/
+│   │   │   ├── Prompt_template.png
+│   │   │   ├── system_prompt.txt
+│   │   │   └── user_prompt.txt
+│   │   └── utils/
+│   │       ├── __init__.py
+│   │       ├── calc-maxlength.py
+│   │       ├── eval.py
+│   │       ├── helpers.py
+│   │       ├── log.py
+│   │       ├── peft.py
+│   │       ├── prompter.py
+│   │       ├── read.py
+│   │       ├── save_to_hfhub.py
+│   │       └── train.py
+├── __init__.py
+├── environment.yml
+├── requirements.txt
+├── requirements-server.txt
+├── IoT-Methodology.png
+├── LICENSE
+├── pyrightconfig.json
+└── README.md
+</code></pre>
 
 To reproduce our work you can follow the next steps after change the paths depends on your machine.
 ---
