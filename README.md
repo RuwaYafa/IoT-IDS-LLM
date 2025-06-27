@@ -8,13 +8,16 @@ COMP9340 – Computer Security Course
 ![Methodology Pipeline](IoT-Methodology.png)
 ---
 * Our Project has two evaluation parts: Deep Learning and Machine Learning code are available on this repository [Monther Salahat](https://github.com/msalahat2015/IoT-IDS), and LLM code [Ruwa AbuHweidi](https://github.com/RuwaYafa/IoT-IDS)
-  
+* All Results are uploaded in repository :
+  * Logs.
+  * Saved models (Machine and Deep Learning).
+  * Checkpoints for trained LLM models.
 ---
-## Reproducability
+## ▶️ Reproducability
 
 To reproduce our work you can follow the next steps after change the paths depends on your machine.
 ---
-## Data processing: the same for machine learning and Deep learning parts
+## ▶️ Data processing: the same for machine learning and Deep learning parts
 ### pre-process:
     export PYTHONPATH="${PYTHONPATH}:/rep/rabuhweidi/sft/SFTTraining-SemEval/src"
     export PYTHONPATH="${PYTHONPATH}:/rep/rabuhweidi/LLMTraining/src"
@@ -22,7 +25,7 @@ To reproduce our work you can follow the next steps after change the paths depen
         --output_path /rep/rabuhweidi/sft/SFTTraining-SemEval/input_folder \
         --n 
 ---
-## Training
+## ▶️ Training
 ### SFT - The Training Process
     CUDA_LAUNCH_BLOCKING=1 PYTHONPATH="$PYTHONPATH:/rep/rabuhweidi/LLMTraining/src" deepspeed --num_gpus=2 /rep/rabuhweidi/LLMTraining/src/blm/cli/train.py \
         --model_name_or_path mistralai/Mistral-7B-Instruct-v0.2 \
@@ -49,7 +52,7 @@ To reproduce our work you can follow the next steps after change the paths depen
         --lora_alpha 16 \
         --lora_dropout 0.1
 ---
-## Evaluation
+## ▶️ Evaluation
 ### evaluation-baseline: 
     PYTHONPATH="${PYTHONPATH}:/rep/rabuhweidi/sft/SFTTraining-SemEval/src" python /rep/rabuhweidi/sft/SFTTraining-SemEval/src/blm/utils/eval.py \
         --model_path mistralai/Mistral-7B-Instruct-v0.2 \
@@ -63,7 +66,7 @@ To reproduce our work you can follow the next steps after change the paths depen
         #--top_k 1
 
 ---
-## Model 
+## ▶️ Model 
 ### Marge Lora: 
     CUDA_LAUNCH_BLOCKING=1 PYTHONPATH="${PYTHONPATH}:/rep/rabuhweidi/LLMTraining/src" python "/rep/rabuhweidi/LLMTraining/src/blm/cli/merge_lora.py" \
         --lora_path "/rep/rabuhweidi/sft/SFTTraining-SemEval/output_folder/CICIoT_2023/mistralai-CICIoT_2023/checkpoint-1200" \
@@ -71,7 +74,7 @@ To reproduce our work you can follow the next steps after change the paths depen
         --hf_token "hf_****"
 
 ---
-## Cont. Evaluation
+## ▶️ Cont. Evaluation
 ### evaluation-after SFT: 
     PYTHONPATH="${PYTHONPATH}:/rep/rabuhweidi/sft/SFTTraining-SemEval/src" python /rep/rabuhweidi/sft/SFTTraining-SemEval/src/blm/utils/eval.py \
         --model_path /rep/rabuhweidi/sft/SFTTraining-SemEval/model/try7_Mistral-7B-Instruct-v0.2-CICIoT_2023 \
@@ -84,7 +87,7 @@ To reproduce our work you can follow the next steps after change the paths depen
         #--top_p 1 \
         #--top_k 1
 ---
-## Deploy
+## ▶️ Deploy
 ### save on huggingface:
     CUDA_LAUNCH_BLOCKING=1 PYTHONPATH="${PYTHONPATH}:/rep/rabuhweidi/sft/SFTTraining-SemEval/src" python /rep/rabuhweidi/sft/SFTTraining-SemEval/src/blm/utils/save_to_hfhub.py \
         --model_path "/rep/rabuhweidi/sft/SFTTraining-SemEval/output_folder/CICIoT_2023/model_try7_Mistral-7B-Instruct-v0.2-CICIoT_2023/mistralai" \
@@ -111,7 +114,7 @@ To reproduce our work you can follow the next steps after change the paths depen
     Tarqeem/ICICoT-2023
 ---
 
-### Used Prompt:
+### ▶️ Used Prompt:
     System prompt:
     You are a strict traffic-classification model.
     
