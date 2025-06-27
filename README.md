@@ -104,21 +104,15 @@ To reproduce our work you can follow the next steps after change the paths depen
         #--private  # Remove this for public repo
 ---
 ### Our Related Links:
-    Mistral-7B SFT model:
-    https://huggingface.co/RuwaYafa/Mistral-7B-Instruct-v0.2-CICIoT_2023
-    RuwaYafa/Mistral-7B-Instruct-v0.2-CICIoT_2023
+
+[Mistral-7B SFT model:](#https://huggingface.co/RuwaYafa/Mistral-7B-Instruct-v0.2-CICIoT_2023)
     
-    Llama-1B SFT model:
-    https://huggingface.co/RuwaYafa/Llama-3.2-1B-Instruct-CICIoT_2023
-    RuwaYafa/Llama-3.2-1B-Instruct-CICIoT_2023
+[Llama-1B SFT model:](https://huggingface.co/RuwaYafa/Llama-3.2-1B-Instruct-CICIoT_2023)
     
-    Llama-3B SFT model:
-    https://huggingface.co/RuwaYafa/Llama-3.2-3B-Instruct-CICIoT_2023
-    RuwaYafa/Llama-3.2-3B-Instruct-CICIoT_2023
+[Llama-3B SFT model:](https://huggingface.co/RuwaYafa/Llama-3.2-3B-Instruct-CICIoT_2023)
     
-    Dataset:
-    https://huggingface.co/datasets/Tarqeem/ICICoT-2023
-    Tarqeem/ICICoT-2023
+[Dataset: Tarqeem/ICICoT-2023](https://huggingface.co/datasets/Tarqeem/ICICoT-2023)
+
 ---
 
 ### ▶️ Used Prompt:
