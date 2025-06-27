@@ -105,17 +105,24 @@ To reproduce our work you can follow the next steps after change the paths depen
 ---
 ### Our Related Links:
 
-[Mistral-7B SFT model:](https://huggingface.co/RuwaYafa/Mistral-7B-Instruct-v0.2-CICIoT_2023)
+> Models 
+
+[Mistral-7B SFT model](https://huggingface.co/RuwaYafa/Mistral-7B-Instruct-v0.2-CICIoT_2023)
     
-[Llama-1B SFT model:](https://huggingface.co/RuwaYafa/Llama-3.2-1B-Instruct-CICIoT_2023)
+[Llama-1B SFT model](https://huggingface.co/RuwaYafa/Llama-3.2-1B-Instruct-CICIoT_2023)
     
-[Llama-3B SFT model:](https://huggingface.co/RuwaYafa/Llama-3.2-3B-Instruct-CICIoT_2023)
+[Llama-3B SFT model](https://huggingface.co/RuwaYafa/Llama-3.2-3B-Instruct-CICIoT_2023)
     
+> Dataset
+
 [Dataset: Tarqeem/ICICoT-2023](https://huggingface.co/datasets/Tarqeem/ICICoT-2023)
 
 ---
 
 ### ▶️ Used Prompt:
+
+![Prompt Template](src/blm/prompts/Prompt_template.png)
+
     System prompt:
     You are a strict traffic-classification model.
     
