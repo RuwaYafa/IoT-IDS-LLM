@@ -143,4 +143,4 @@ To reproduce our work you can follow the next steps after change the paths depen
     LabelID:
 ---
 #### Acknowledgement
-This project thanks the open repository of [mohammedkhalilia](https://github.com/mohammedkhalilia/LLMTraining/tree/main), which provides a starting point for developing our code.
+This project thanks the open repository of [@mohammedkhalilia](https://github.com/mohammedkhalilia/LLMTraining/tree/main), which provides a starting point for developing our code.
