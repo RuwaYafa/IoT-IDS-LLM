@@ -1,6 +1,6 @@
 ## Evaluating Artificial Intelligence models for IoT Network Intrusion Detection: An Analysis of Performance and Time Efficiency
 
-COMP9340 – Computer Security Course
+COMP9340 – Computer Security Course - 2025
 
 - Lecture: Prof. [Mohaiesn Daivad](https://www.cs.ucf.edu/~mohaisen/)
 - Students: [Ruwa AbuHweidi](https://github.com/RuwaYafa) and [Monther Salahat](https://github.com/msalahat2015/IoT-IDS)
