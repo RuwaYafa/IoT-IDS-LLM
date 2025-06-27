@@ -17,6 +17,13 @@ COMP9340 – Computer Security Course
 
 To reproduce our work you can follow the next steps after change the paths depends on your machine.
 ---
+### Initial Step to prepare your environment: 
+'''
+- git clone https://github.com/RuwaYafa/IoT-IDS-LLM
+- conda create -n <env name> python=3.12 
+- conda activate <env name>
+- pip install -r requirements.txt
+---
 ## ▶️ Data processing: the same for machine learning and Deep learning parts
 ### pre-process:
     export PYTHONPATH="${PYTHONPATH}:/rep/rabuhweidi/sft/SFTTraining-SemEval/src"
@@ -97,20 +104,16 @@ To reproduce our work you can follow the next steps after change the paths depen
         #--private  # Remove this for public repo
 ---
 ### Our Related Links:
-    Mistral-7B SFT model:
-    https://huggingface.co/RuwaYafa/Mistral-7B-Instruct-v0.2-CICIoT_2023
+    [Mistral-7B SFT model:](https://huggingface.co/RuwaYafa/Mistral-7B-Instruct-v0.2-CICIoT_2023)
     RuwaYafa/Mistral-7B-Instruct-v0.2-CICIoT_2023
     
-    Llama-1B SFT model:
-    https://huggingface.co/RuwaYafa/Llama-3.2-1B-Instruct-CICIoT_2023
+    [Llama-1B SFT model:](https://huggingface.co/RuwaYafa/Llama-3.2-1B-Instruct-CICIoT_2023)
     RuwaYafa/Llama-3.2-1B-Instruct-CICIoT_2023
     
-    Llama-3B SFT model:
-    https://huggingface.co/RuwaYafa/Llama-3.2-3B-Instruct-CICIoT_2023
+    [Llama-3B SFT model:](https://huggingface.co/RuwaYafa/Llama-3.2-3B-Instruct-CICIoT_2023)
     RuwaYafa/Llama-3.2-3B-Instruct-CICIoT_2023
     
-    Dataset:
-    https://huggingface.co/datasets/Tarqeem/ICICoT-2023
+    [Dataset:](https://huggingface.co/datasets/Tarqeem/ICICoT-2023)
     Tarqeem/ICICoT-2023
 ---
 
