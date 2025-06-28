@@ -3,14 +3,14 @@
 COMP9340 – Computer Security Course - 2025
 
 - Lecture: Prof. [Mohaiesn Daivad](https://www.cs.ucf.edu/~mohaisen/)
-- Students: [Ruwa AbuHweidi](https://github.com/RuwaYafa) and [Monther Salahat](https://github.com/msalahat2015/IoT-IDS)
+- Students: [Ruwa AbuHweidi](https://github.com/RuwaYafa/IoT-IDS-LLM) and [Monther Salahat](https://github.com/msalahat2015/IoT-IDS)
 
 ![Methodology Pipeline](IoT-Methodology.png)
 ---
-* Our Project has two evaluation parts: Deep Learning and Machine Learning code are available on this repository [Monther Salahat](https://github.com/msalahat2015/IoT-IDS), and LLM code [Ruwa AbuHweidi](https://github.com/RuwaYafa/IoT-IDS)
+* Our Project has two evaluation parts: Deep Learning and Machine Learning code are available on this repository [Monther Salahat](https://github.com/msalahat2015/IoT-IDS), and LLM code [Ruwa AbuHweidi](https://github.com/RuwaYafa/IoT-IDS-LLM)
 * All Results are uploaded in repository [Dropbox](https://www.dropbox.com/scl/fo/7y8a8j7tko3da90sr6mco/AHpHYC95o7b65hER_MAKjKs?rlkey=2m6asv519j7w6li4d2c45ecbo&dl=0):
   * [Logs](https://www.dropbox.com/scl/fo/62zortvc8kuwud8ptn1n0/AEUulu3p5iGV0338tpijExU?rlkey=oaj70ynnmv2dtruwp5j4obs9v&dl=0).
-  * Saved models (Machine and Deep Learning).
+  * [Saved models](https://drive.google.com/drive/folders/14io4lIMozrjQo1An5drDHKUwH6-ukY3X?usp=sharing) (Machine and Deep Learning).
   * [Checkpoints](https://www.dropbox.com/scl/fo/yg306y5df9y5eyjp9mz72/AKbDfF1MVBljfVSORMXKsC4?rlkey=wgv7mnhscnbvij32v12qd8lgo&dl=0) for trained LLM models.
 ---
 ## ▶️ Reproducability
@@ -54,10 +54,10 @@ COMP9340 – Computer Security Course - 2025
 │   │       ├── read.py
 │   │       ├── save_to_hfhub.py
 │   │       └── train.py
-├── __init__.py
-├── environment.yml
-├── requirements.txt
-├── requirements-server.txt
+│   │   ├__init__.py
+│   │   ├environment.yml
+│   │   ├requirements.txt
+│   │   ├requirements-server.txt
 ├── IoT-Methodology.png
 ├── LICENSE
 ├── pyrightconfig.json
@@ -154,7 +154,7 @@ To reproduce our work you can follow the next steps after change the paths depen
 ---
 ### Our Related Links:
 
-> Models 
+> SFT Models on Hugging face
 
 [Mistral-7B SFT model](https://huggingface.co/RuwaYafa/Mistral-7B-Instruct-v0.2-CICIoT_2023)
     
