@@ -54,10 +54,10 @@ COMP9340 – Computer Security Course - 2025
 │   │   │   ├── read.py
 │   │   │   ├── save_to_hfhub.py
 │   │   │   └── train.py
-│   │   ├__init__.py
-│   │   ├environment.yml
-│   │   ├requirements.txt
-│   │   ├requirements-server.txt
+│   │   ├──__init__.py
+│   │   ├──environment.yml
+│   │   ├──requirements.txt
+│   │   ├──requirements-server.txt
 │   │   └──visualization.txt
 ├── IoT-Methodology.png
 ├── LICENSE
