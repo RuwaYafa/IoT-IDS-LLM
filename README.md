@@ -5,6 +5,8 @@ COMP9340 – Computer Security Course - 2025
 - Lecture: Prof. [Mohaiesn Daivad](https://www.cs.ucf.edu/~mohaisen/)
 - Students: [Ruwa AbuHweidi](https://github.com/RuwaYafa/IoT-IDS-LLM) and [Monther Salahat](https://github.com/msalahat2015/IoT-IDS)
 
+---
+## ▶️ Methodology Pipeline
 ![Methodology Pipeline](IoT-Methodology.png)
 ---
 * Our Project has two evaluation parts: Deep Learning and Machine Learning code are available on this repository [Monther Salahat](https://github.com/msalahat2015/IoT-IDS), and LLM code [Ruwa AbuHweidi](https://github.com/RuwaYafa/IoT-IDS-LLM)
@@ -154,6 +156,8 @@ To reproduce our work you can follow the next steps after change the paths depen
         --your_name "Tarqeem" \
         #--private  # Remove this for public repo
 ---
+## ▶️ Results
+![img.png](img.png)
 ### Our Related Links:
 
 > SFT Models on Hugging face
