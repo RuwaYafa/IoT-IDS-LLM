@@ -68,11 +68,12 @@ COMP9340 – Computer Security Course - 2025
 To reproduce our work you can follow the next steps after change the paths depends on your machine.
 ---
 ### Initial Step to prepare your environment: 
-'''
-- git clone https://github.com/RuwaYafa/IoT-IDS-LLM
-- conda create -n <env name> python=3.12 
-- conda activate <env name>
-- pip install -r requirements.txt
+  
+  - git clone https://github.com/RuwaYafa/IoT-IDS-LLM
+  - conda create -n <env name> python=3.12 
+  - conda activate <env name>
+  - pip install -r requirements.txt
+
 ---
 ## ▶️ Data processing: the same for machine learning and Deep learning parts
 ### pre-process:
